@@ -2,15 +2,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+  
+  <!-- Scripts -->
+  <script src="{{ site.baseurl }}/assets/scripts/external/jquery-1.7.min.js" type="text/javascript"></script>
+  <script src="{{ site.baseurl }}/assets/scripts/external/url.min.js" type="text/javascript"></script>
+  <script src="{{ site.baseurl }}/assets/scripts/sidebar-active.js" type="text/javascript"></script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" type="text/css">
 
   <!-- Font -->
+  <!--link rel="stylesheet" href="{{ site.baseurl }}/assets/css/external/font-awesome.min.css"-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-
-  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+  
   {% seo %}
   
   <link rel='icon' href="{{ site.baseurl }}/assets/images/favicon.ico" type='image/x-icon'/ >

@@ -32,6 +32,67 @@ body {
   }
 }
 
+/*--------------
+  Sidebar
+  -------------- */
+ul.navigation {
+    list-style: none;
+    text-align: right;
+}
+
+ul.navigation li a {
+	text-decoration: none;
+	color: $base-color;
+    font-weight: normal;
+    text-transform: lowercase;
+            
+    &:hover,
+    &:focus {
+        color: lighten($base-color, 50);
+        text-decoration: none;
+        -webkit-transition: all .2s ease;
+           -moz-transition: all .2s ease;
+                transition: all .2s ease;
+    }
+}
+
+ul.navigation li a.on {
+	text-decoration: none;
+	color: $base-color;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.left {
+    float: left;
+    position: absolute; 
+    height: 100%;
+    width: 20rem;
+    display: table;
+    
+    &-inner {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+.right {
+    margin-left: 21rem;
+    max-width: 38rem;
+    position: absolute; 
+    height: 100%; 
+    display: table;
+    
+    &-inner {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
 
 /*--------------
   Header
@@ -41,6 +102,8 @@ body {
 
   &-title {
     font-weight: 300;
+    font-size: 1.5rem;
+    text-align: right;
     a {
       color: $base-color;
 
@@ -100,9 +163,9 @@ body {
   -------------- */
 
 .page {
-  &-title {
+    &-title {
     margin-bottom: 2rem;
-  }
+    }
 }
 
 
