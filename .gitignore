@@ -12,3 +12,6 @@ Gemfile.lock
 
 # Other
 .jsbeautifyrc
+assets/bundle.js
+node_modules
+

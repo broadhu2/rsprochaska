@@ -16,7 +16,7 @@ timezone:           America/New_York
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
-paginate:           5
+paginate:           3
 paginate_path:      /page:num/
 
 # Markdown
@@ -63,4 +63,4 @@ gems:
   - jekyll-seo-tag
   - jekyll-paginate
 
-exclude:            [vendor, Gemfile.lock, LICENSE.md, README.md]
+exclude:            [vendor, Gemfile.lock, LICENSE.md, README.md, 'node_modules']
