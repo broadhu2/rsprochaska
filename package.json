@@ -19,7 +19,8 @@
     "react-dom": "^15.0.2",
     "webpack": "~1.13.3",
     "webpack-dev-server": "~1.16.2",
-    "jsx-loader": "~0.13.2"
+    "jsx-loader": "~0.13.2",
+    "gh-pages": "~0.11.0"
   },
   "scripts": {
     "build": "webpack --config webpack.config.js"
